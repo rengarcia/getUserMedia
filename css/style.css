@@ -1,0 +1,96 @@
+body 
+{
+	font-family: Source Sans Pro;
+	font-size: 16px;
+	padding: 7em 0; /* Los em son el tamaño de la fuente del body osea 7*16 que no se cuantos pxs son*/
+	text-align: center;
+}
+button
+{
+	background: #777;
+	color: #fff;
+	border: 1px solid rgba(0,0,0,.4);
+	display: block;
+}
+button:hover 
+{
+	background: #eee;
+	color: #444;
+}
+header
+{
+	background: #08c;
+	color: #fff;
+	left: 0;
+	padding: .5em 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+header h1
+{
+	font-family: Sue Ellen Francisco;
+	margin: 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+}
+nav
+{
+	background: #08c;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li 
+{
+	display: inline-block;
+	padding: 1em 0;	
+	width: 25%;
+}
+nav ul li:hover
+{
+	background: rgba(0,0,0,.1);
+}
+nav ul li.active 
+{
+	background: rgba(0,0,0,.2);
+}
+nav ul li a 
+{
+	color: #fff;
+	text-decoration: none;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+}
+section 
+{
+	background: #ddd;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 1em;
+	width: 90%;
+}
+section article p 
+{
+	text-align: justify;
+}
+@media screen and (max-width: 320px){
+	nav ul li 
+	{
+		width: 50%;
+	}
+	section #contenedorVideo
+	{
+		width: 100%
+	}
+	section #contenedorVideo video 
+	{
+		max-width: 100%;
+	}
+}

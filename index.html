@@ -1,0 +1,38 @@
+<!doctype html> 
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width , initial-scale=1 ,maximum-scale=1" /><!-- Esto es para que sea responsive design -->
+	<title>Acceso a la cámara web y al micrófono</title>
+	<link rel="stylesheet" href="css/style.css" /><!-- El CSS siempre va antes del JS porque si no no carga el DOM bien-->
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" />
+	<script src="js/accesoCamaraAudio.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Acceso a la cámara web y al micrófono</h1><!-- El h1 solo se puede poner una vez -->
+	</header>
+	<section>
+		<div id="contenedorVideo">
+			<video height="240" width="320" controls autoplay></video>
+			<canvas id="canvas" width="320" height="240"></canvas>
+			<button id="capturar">Capturar</button>
+		</div>
+		<article>
+			<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p>
+
+			<p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.</p>
+		</article>
+	</section>
+	<nav>
+		<ul>
+			<li class="active"><a href="#">Home</a></li><!--
+			--><li><a href="#">Products</a></li><!--
+			--><li><a href="#">Company</a></li><!--
+			--><li><a href="#">Blog</a></li>
+		</ul>
+	</nav>
+</body>
+</html>
